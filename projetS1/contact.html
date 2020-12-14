@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0">
+
+    <title>Contact - Green Data</title>
+
+    <link rel="stylesheet" href="css/lib/normalize.css">
+
+    <link rel="stylesheet" href="css/mycss/typography.css">
+    <link rel="stylesheet" href="css/mycss/mise_en_page.css">
+    <link rel="stylesheet" href="css/mycss/graphique.css">
+    <link rel="stylesheet" href="css/mycss/menu.css">
+    <link rel="stylesheet" href="css/mycss/info.css">
+
+</head>
+
+<body class="info">
+
+<header>
+    <h1 class="titre-home info"><a href="index.html">CON<wbr>TACT</a></h1>
+
+    <!--MENU-->
+
+    <h1 onclick="location.href='index.html'" class="titre-menu"><a href="index.html">GREEN WEB</a></h1>
+    <div onclick="document.documentElement.classList.toggle('menu-open')">
+        <h2 class="menu-menu">menu</h2>
+        <div class="menu-deroulant"></div>
+        <div class="barre-menu"></div>
+    </div>
+
+
+</header>
+
+
+<div class="trait"></div>
+
+<!--////////////////////////////////////////////////////////////////////////////////-->
+
+
+<main>
+    <p>
+        <span class="tab">Bonjour ! Je suis actuellement en étude des métiers multimédias et de l’internet, si vous avez des questions vous pouvez me contacter via les réseaux suivant. Je serais heureux de recevoir le retour de mes lecteurs donc n’hésitez pas à remplir ce formulaire.
+            <br><br>Bien à vous.
+        </span>
+    </p>
+
+    <form action="">
+        <label for="prenom"></label>
+        <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+        <label for="nom"></label>
+        <input type="text" id="nom" name="nom" placeholder="Nom">
+        <label for="email"></label>
+        <input type="text" id="email" name="email" placeholder="Email">
+        <label for="texte"></label>
+        <textarea class="zone-texte" type="text" id="texte" name="texte" placeholder="Saisissez votre texte ..."></textarea>
+
+    </form>
+    <button class="send">Envoyer</button>
+    <div class=""></div>
+</main>
+
+
+<div class="trait "></div>
+
+
+<nav class="article-suivant">
+    <ul>
+        <li>
+            <h4>À Voir Ensuite</h4>
+            <h3>+ DE PROJETS</h3>
+
+            <p>Sur le <span class="miseenvaleur">même thème</span>.</p>
+            <button onclick="location.href='plus-de-projets.html'">Voir</button>
+
+        </li>
+        <li>
+            <h4>À Voir Ensuite</h4>
+            <h3>MENTIONS LÉGALES</h3>
+
+            <p>Nos données et leurs <span class="miseenvaleur">impacts</span></p>
+            <button onclick="location.href='mentions-legales.html'">Voir</button>
+
+        </li>
+    </ul>
+</nav>
+
+<!--////////////////////////////////////////////////////////////////////////////////-->
+
+<div class="trait "></div>
+
+
+<footer>
+    <section>
+        <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <span class="miseenvaleur">MMI de Montbéliard</span>
+        <div class="logo-mmi">
+            <img src="css/images/logo/logo-mmi-blanc.svg" alt="logo-mmi-blanc.svg">
+        </div>
+    </section>
+
+    <div class="trait blanc"></div>
+
+    <ul>
+        <li class="logo-reseaux">
+            <img onclick="location.href='https://www.pinterest.fr/'" src="css/images/logo/logo-pinterest.svg"
+                 alt="pinterest">
+            <a href="https://www.pinterest.fr/">Pinterest</a>
+        </li>
+        <li class="logo-reseaux">
+            <img onclick="location.href='https://fr-fr.facebook.com/'" src="css/images/logo/logo-facebook.svg"
+                 alt="facebook">
+            <a href="https://fr-fr.facebook.com/">Facebook</a>
+        </li>
+        <li class="logo-reseaux">
+            <img onclick="location.href='https://www.instagram.com/?hl=fr'" src="css/images/logo/logo-instagram.svg"
+                 alt="instagram">
+            <a href="https://www.instagram.com/?hl=fr">Instagram</a>
+        </li>
+        <li class="logo-reseaux">
+            <img onclick="location.href='https://www.linkedin.com/home'" src="css/images/logo/logo-linkedin.svg"
+                 alt="linkedin">
+            <a href="https://www.linkedin.com/home">Linkedin</a>
+        </li>
+
+    </ul>
+    <div class="vide"></div>
+
+    <div class="trait blanc"></div>
+
+
+</footer>
+
+
+<nav class="menu">
+    <div class="trait-menu"></div>
+    <div class="menu-content">
+        <ul>
+            <li>
+                <a href="index.html">accueil</a>
+            </li>
+            <li>
+                <a href="timeout&bigdata.html">time out & big data</a>
+            </li>
+            <li>
+                <a href="surconsommation.html">surconsommation</a>
+            </li>
+            <li>
+                <a href="solutions.html">des solutions ?</a>
+            </li>
+            <div class="vide-menu"></div>
+            <li>
+                <a href="plus-de-projets.html">+ de projets</a>
+            </li>
+            <li>
+                <a href="mentions-legales.html">mentions légales</a>
+            </li>
+            <li>
+                <a href="contact.html">contact</a>
+            </li>
+        </ul>
+        <div class="trait-menu-2"></div>
+        <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <span class="miseenvaleur">MMI de Montbéliard</span>
+        </p>
+    </div>
+</nav>
+</body>
+</html>
